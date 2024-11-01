@@ -137,14 +137,292 @@
 // }
 
 
-let salary = prompt("emek haqqi:")
-let price = prompt("istediyiniz meblegh:")
-let time = prompt("istediyiniz muddet(ay):")
-let kredit;
-if(time == 36){
+// let salary = prompt("emek haqqi:")
+// let price = prompt("istediyiniz meblegh:")
+// let time = prompt("istediyiniz muddet(ay):")
+// let kredit;
+// if(time == 36){
     
     
-}else{
-    alert("size bu shertlerle kredit dushmur...(");
-    console.log("size bu shertlerle kredit dushmur...(");
-}
+// }else{
+//     alert("size bu shertlerle kredit dushmur...(");
+//     console.log("size bu shertlerle kredit dushmur...(");
+// }
+
+
+
+
+
+//1. Toplama Funksiyası
+//İki ədədin cəmini hesablayan bir funksiya yaradın
+
+
+
+// let num1 = +prompt("1ci eded")
+// let num2 = +prompt("2ci eded")
+// function Sum(num1=0, num2=0){
+//     let total = num1+num2
+//     return total
+// }
+// let result = Sum(num1, num2)
+// console.log(result);
+
+
+
+
+//2. İki Ədədin Maksimumu
+//İki ədədin maksimumunu qaytaran bir funksiya yaradın. if-else istifadə edin.
+
+
+// let num1 =765467
+// let num2 =90852
+// function max(num1, num2){
+//     if(num1 > num2){
+//         console.log(num1);
+//     }else{
+//         console.log(num2);    
+//     }
+// }
+
+// max(num1, num2)
+
+
+
+// 3. 1-dən n-ə Qədər Cəmi
+// 1-dən n-ə qədər olan ədədlərin cəmini qaytaran bir funksiya yaradın. dongusu üçün istifadə edin.
+
+// let n = 50
+// let sum =0
+// function Sum(n){
+//     for (let i = 1; i <=n; i++) {
+//         sum += i;
+//     }
+//     return sum
+// }
+// console.log(Sum(n));
+
+
+
+// 4. Tək və Cüt ədədlər
+// Verilmiş bir ədədin tək və ya cüt olduğunu göstərən bir funksiya yaradın.
+
+
+
+// let a =67487
+
+// function OddEven(a){
+//     if(a % 2 === 0) {
+//         console.log("eded cutdur");;
+//     }else{
+//         console.log("eded tekdir");
+//     }
+    
+// }
+// OddEven(a)
+
+
+// 5. Faktorial Hesabı
+// Verilmiş bir ədədin faktorialını hesablayan bir funksiya yaradın. dongusu üçün istifadə edin.
+
+
+// let a =6
+// function Factorial(a){
+//     let f =1
+//     for (let i = 2; i <= a; i++) {
+//         f *= i; 
+//     }
+//     return f
+// }
+// console.log(Factorial(a));
+
+
+
+// 6. Nömrələrin Tersinə
+// Bir ədədin tərsini qaytaran bir funksiya yaradın (məhz, 123 -> 321).
+
+
+// 7.
+//  N-ə Qədər Cüt ədədlər
+// 1-dən n-ə qədər olan cüt ədədləri çap edən bir funksiya yaradın.
+
+
+
+// let n =100
+// function Even(n){
+//     for (let i = 0; i <= n; i++) {
+//         if(i % 2 === 0){
+//             console.log(i);
+//         }
+        
+//     }
+// }
+// Even(n)
+
+
+
+// 8. FizzBuzz
+// 1-dən 100-ə qədər olan ədədlər üçün FizzBuzz problemi: 3-ə bölünəndə "Fizz", 5-ə bölünəndə "Buzz", hər ikisinə bölünəndə "F izzBuzz" yazın.
+
+
+
+// let n =100
+// function FizzBuzz(n){
+//     for (let i = 0; i <= n; i++) {
+//         if(i % 15 === 0){
+//             console.log("FizzBuzz");
+//         }else if(i % 3 === 0){
+//             console.log("Fizz");
+//         }else if(i % 5 === 0){
+//             console.log("Buzz");
+//         }
+        
+//     }
+     
+// }
+// FizzBuzz(n)
+
+
+
+// 9. Polindrom Yoxlanması
+// Verilmiş bir sözün polindrom olub olmadığını yoxlayan bir funksiya yaradın.
+
+
+// 10. 1-dən n-ə Qədər ədədlərinin Kvadratı
+// 1-dən n-ə qədər olan ədədlərin kvadratlarını çap edən bir funksiya yaradın.
+
+
+// let n =100
+// function Calc(n){
+//     for (let i = 1; i <=n; i++) {
+//         console.log(i**2);
+        
+//     }
+// }
+// Calc(n)
+
+
+
+// 11. İki Dəfə Yoxlanma
+// Verilmiş bir ədədin 2, 3 və 5-ə bölünüb-bölünmədiyini yoxlayan bir funksiya yaradın
+
+
+// let x =120
+// function Calc(x){
+//     if(x % 30 === 0){
+//         console.log("bolunur");
+//     }else{
+//         console.log("bolunmur");
+//     }
+// }
+// Calc(x)
+
+
+// 12. Array-in Cəmi
+// Bir array içindəki ədədlərin cəmini hesablayan bir funksiya yaradın.
+
+
+// let array =[2,5,7,6,9,3]
+// function SumArray(array){
+//     for (let i = 0; i < array.length; i++) {
+        
+//     }
+// }
+
+
+
+
+
+// 13. Tərs Array
+// Bir array-i tərsinə çevirən bir funksiya yaradın.
+
+
+
+
+// 14. Tələbə Qiymətləri
+// Tələbələrin qiymətlərini qəbul edir və 60-dan yuxarı olan dəyişiklikləri "keçdi", 60-dan aşağı olanları "qaldı" bir funksiya yaradın.
+
+
+
+
+// 15. Kəmiyyət Yoxlanması
+// Verilmiş bir ədədin 10-dan kiçik, böyük funksiyası və ya böyük olduğunu yoxlayan bir yaradın.
+
+
+
+// let a =7
+
+// function Check(a){
+//     if(a < 10){
+//         console.log("10dan kicikdir");
+//         return a
+//     }else if(a > 10){
+//         console.log("10dan boyukdur");
+//         return a
+//     }
+// }
+// Check(a)
+
+
+
+
+// 16. Array-də Maksimum Dəyər
+// Bir massiv-dəki maksimum dəyər taparaq qaytaran bir funksiya yaradın.
+
+
+// let array =[56,4,677,3,56]
+// function Max(array){
+//     for (let i = 0; i < array.length; i++) {
+        
+        
+//     }
+// }
+
+
+
+
+// 17. Cüt ədədlərin Sayı
+// Verilmiş bir array-dəki cüt ədədlərin hesablayan bir funksiyası yaradın.
+
+
+// let arr =[5,8,4,2,76,9,3]
+
+// function Even(arr){
+//     let count =0
+//     for (let i = 0; i < arr.length; i++) {
+//       if(arr[i] % 2 === 0){
+//          count++
+//       }
+//       return count
+        
+//     }
+// }
+// console.log(Even(arr))
+
+
+
+// 18. Vowel Yoxlanması
+// Verilmiş bir xarakterin səsli hərf olub olmadığını yoxlayan bir funksiya yaradın (a, e, i, o, u).
+
+
+// let array =["a","e","i","o","u"]
+// let x = "c"
+// function Vowel(array, x){
+//     for (let i = 0; i < array.length; i++) {
+//         if(x === array[i]){
+//            return "sesli herfdir"
+//         }
+        
+        
+//     }
+//     return "sesli herf deyil"
+// }
+// console.log(Vowel(array, x));
+
+
+
+// 19 Müsbət və Mənfi ədədlərin Sayı
+// Verilmiş bir array-dəki görünüş və bir funksiyası olan məbləğlərin qaytaran yaradın.
+
+
+// let array =[-4,8,9,-23,56,3,-7]
+// function 
